@@ -5,7 +5,7 @@ import os
 
 st.set_page_config(
     page_title="K.K's Book App",
-    page_icon="logo.png",
+    page_icon="logo.jpeg",
     layout="wide"
 )
 # ---------------- FILES ----------------
