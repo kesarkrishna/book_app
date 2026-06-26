@@ -3,8 +3,11 @@ import pandas as pd
 import requests
 import os
 
-st.set_page_config(page_title="K.K's Book App", layout="wide")
-
+st.set_page_config(
+    page_title="K.K's Book App",
+    page_icon="logo.png",
+    layout="wide"
+)
 # ---------------- FILES ----------------
 UNREAD_FILE = "unread_books.csv"
 READ_FILE = "read_books.csv"
